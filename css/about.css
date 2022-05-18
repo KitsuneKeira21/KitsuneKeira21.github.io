@@ -1,7 +1,81 @@
 
+
 /* ***************************************************************** */
 /* Style rules for body area */ 
 
 body {
-    background-color: #072227;
+    background-color: #AAAAAA;
+    height: 90em;
+}
+
+article1 {
+    width: 60em;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Zen Loop', cursive;
+    font-size: 50px;
+    color: #393E46;
+    letter-spacing: .5px;
+    padding: 10px;
+}
+
+article1 h3 {
+    text-align: left;
+    font-family: 'Zen Loop', cursive;
+    font-size: 30px;
+    color: #393E46;
+    letter-spacing: .5px;
+}
+
+h3 img {
+    height: 100px;
+    margin: 5px;
+}
+
+
+.grid {
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+
+figure {
+    display: inline-flex;
+}
+
+figure img {
+    height: 170px;
+    border: 1px solid #393E46;
+    box-shadow: 5px 7px 8px #393E46;
+}
+
+
+
+.frame {
+    position: relative;
+    margin: 10px;
+}
+
+.pic-text {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #D8E3E7;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 15px; 
+    letter-spacing: 2.5px; 
+}
+
+
+
+.footer {
+    position: fixed;
 }
